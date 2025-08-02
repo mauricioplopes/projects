@@ -18,11 +18,13 @@ This is the well-known **Rosenbrock function**, a classic test case for optimiza
 The gradients used for explicit gradient descent are:
 
 
-$frac{d}{dx_1} f(x_1, x_2) = 2(200x_1^3 - 200x_1x_2 + x_1 - 1)$
+$$
+\frac{d}{dx_1} f(x_1, x_2) = 2(200x_1^3 - 200x_1x_2 + x_1 - 1)
+$$
 
-
-
-$frac{d}{dx_2} f(x_1, x_2) = 200(x_2 - x_1^2)$
+$$
+\frac{d}{dx_2} f(x_1, x_2) = 200(x_2 - x_1^2)
+$$
 
 
 ## Implementation Details

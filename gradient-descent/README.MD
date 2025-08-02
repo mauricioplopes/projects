@@ -8,7 +8,9 @@ This repository contains the implementation of gradient descent techniques appli
 
 Minimize the following two-variable nonlinear function using gradient descent:
 
-$f(x_1, x_2) = (1 - x_1)^2 + 100(x_2 - x_1^2)^2$
+$$
+f(x_1, x_2) = (1 - x_1)^2 + 100(x_2 - x_1^2)^2
+$$
 
 
 This is the well-known **Rosenbrock function**, a classic test case for optimization algorithms due to its narrow, curved valley toward the global minimum.
